@@ -66,7 +66,7 @@ while True:
             engine.say("Sorry, I could not fetch the news.")
             engine.runAndWait()
 
-    #now the time using vioce assistant
+    #chech the time using vioce assistant
     elif "time" in text:
         time = datetime.datetime.now().strftime("%I:%M %p")
         print(f"Assistant: The current time is {time}")
